@@ -1,0 +1,28 @@
+import streamlit
+
+"""
+st.markdown(# Immutable Collections: Tuples are useful when you need a collection of items that should not be changed throughout the program. For example, storing coordinates (x, y) or RGB color values.
+Dictionary Keys: Tuples can be used as keys in dictionaries because they are immutable.
+Returning Multiple Values: Functions can return multiple values using tuples.
+Heterogeneous Data: Tuples can store a collection of items of different data types.
+Pros
+Immutability: Once created, the elements of a tuple cannot be changed, which can help prevent accidental modifications.
+Performance: Tuples are generally faster than lists because of their immutability.
+Memory Efficiency: Tuples use less memory compared to lists.
+Hashable: Tuples can be used as keys in dictionaries due to their immutability.
+Cons
+Immutability: The inability to change the elements can be a limitation if you need a mutable collection.
+Limited Methods: Tuples have fewer built-in methods compared to lists.
+Readability: Tuples with many elements can be less readable and harder to manage compared to lists or other data structures.
+
+
+# Example of using a tuple to store coordinates
+coordinates = (10, 20)
+
+# Example of using a tuple as a dictionary key
+location_data = {coordinates: "Location A"}
+
+# Example of a function returning multiple values as a tuple
+def get_min_max(numbers):
+    return (min(numbers),
+    """
