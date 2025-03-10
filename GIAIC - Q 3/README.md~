@@ -1,0 +1,6 @@
+# 1. GIAIC--- Q 3
+# 2.  Install Python 13
+# 3.  install poetry 
+# 4.  Create project using power shell command is 'poetry new [project_name]' this will create a new project
+# 5.  Make sure that .toml file is inside project
+
